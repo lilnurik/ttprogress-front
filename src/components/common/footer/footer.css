@@ -1,0 +1,136 @@
+.newletter {
+  background-color: #F6B548;
+  padding: 50px 0;
+  color: #fff;
+}
+.newletter .right,
+.newletter .left {
+  padding-right: 50px;
+}
+.hidden {
+  display: none;
+}
+.footer-form {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-form {
+    display: none;
+  }
+}
+
+
+.newletter h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.newletter .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ li {
+  color: white !important;
+}
+
+.link, .last{
+  color: #fff !important;
+}
+.newletter input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+.newletter i {
+  padding: 12px;
+  color: #F6B548;
+  background-color: #fff;
+}
+footer {
+  background-color: #1c2120;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 4fr;
+  grid-gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  footer .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+.legal p{
+  padding: 12px;
+}
+}
+footer .logo span {
+  color: #F6B548;
+  font-size: 14px;
+}
+footer .logo p {
+  color: grey;
+  margin: 30px 0 15px 0;
+}
+footer .logo .icon {
+  background-color: #F6B548;
+  color: white;
+  margin-right: 10px;
+}
+footer h3 {
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+footer ul li {
+  margin-bottom: 20px;
+}
+footer .link li::before {
+  content: "⟶";
+  color: #F6B548;
+  margin-right: 5px;
+}
+footer .items {
+  margin-bottom: 30px;
+}
+footer .items img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+footer .items span,
+footer .items i {
+  font-size: 12px;
+  color: #F6B548;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+footer h4 {
+  font-weight: 400;
+  margin-top: 5px;
+}
+footer .last ul li {
+  display: flex;
+  margin-bottom: 50px;
+}
+footer .last i {
+  width: 60px;
+  font-size: 20px;
+  color: #F6B548;
+}
+.legal {
+  text-align: center;
+  padding: 50px 0;
+  color: grey;
+  background-color: #1c2120;
+}
+.legal p {
+  font-size: 15px;
+}
+.legal i {
+  color: #F6B548;
+}

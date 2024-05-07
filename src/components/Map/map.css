@@ -1,0 +1,29 @@
+.container-map {
+    background-color: #1C2120 !important;
+    height: 80vh !important;
+  
+  }
+
+  .map-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    max-width: 60vw;
+  }
+
+  .map-img img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .container-map{
+      height: 45vh !important;
+    }
+    .map-img{
+      max-width: 80vw;
+    }
+  } 

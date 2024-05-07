@@ -1,0 +1,9 @@
+.exampleCarousel1 img{
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .exampleCarousel1 img{
+    padding: 10px;
+  }
+}

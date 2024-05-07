@@ -1,0 +1,69 @@
+.service-cards {
+  gap: 10px;
+  padding: 20px;
+  
+}
+.map{
+  padding: 7px;
+  height: 80vh !important;
+}
+
+.services2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 90px;
+  gap: 20px;
+}
+
+.service-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.service-btn{
+  background-color: #F6B548;
+  padding: 8px 19px;
+  margin:10px 5px 0 7px;
+}
+
+.service-title {
+  font-size: 18px;
+  margin: 10px 5px 0 7px;
+}
+
+.service-link {
+  
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+ 
+}
+
+/* .service-link:hover {
+  background-color: #e09300;
+} */
+
+/* Медиа-запросы для адаптивности */
+
+@media screen and (max-width: 768px) {
+  .service-cards {
+    grid-template-rows: auto auto auto;
+  }
+
+  .service-title {
+    font-size: 16px;
+  }
+
+  .services2{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+    gap: 25px;
+  }
+  .service-cards {
+    gap: 10px;
+    padding: 20px;
+    
+  }
+}

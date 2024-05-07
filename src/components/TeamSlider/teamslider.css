@@ -1,0 +1,9 @@
+.team-slider{
+    margin:40px;
+}
+
+@media screen and (max-width: 768px) {
+    .team-slider{
+        margin:15px;
+    }
+}

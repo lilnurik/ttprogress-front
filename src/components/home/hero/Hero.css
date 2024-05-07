@@ -1,0 +1,40 @@
+.hero {
+  background-image: url("../../../assets/Frame\ 13.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #fff;
+}
+.hero #heading h3 {
+  color: #fff;
+}
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 59vh;
+  }
+  .hero {
+    background-position: center;
+    background-image: url("../../../assets/bg-mobile.png");
+    padding-top: 50%;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size:auto;
+    background-repeat: no-repeat;
+  }
+  .hero .row {
+    width: 100%;
+  }
+}

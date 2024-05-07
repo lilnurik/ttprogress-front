@@ -1,0 +1,59 @@
+.team .items {
+  transition: 0.5s;
+  margin: 15px;
+   /* фиксированная высота */
+}
+
+.team .img img {
+  width: 100%; /* фиксированная ширина */
+  height: 300px;
+  object-fit: cover;
+}
+
+.team .details {
+  padding: 30px;
+  text-align: center;
+}
+
+.team .details h2 {
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.team .details p {
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.team .items:hover {
+  background-color: #fe1f59;
+  color: #fff;
+  cursor: pointer;
+}
+
+.team .items:hover p {
+  color: #fff;
+}
+
+.team .items:hover .overlay {
+  opacity: 1;
+}
+
+.team .items:hover .overlay i:hover {
+  background-color: #fe1f59;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .team .items {
+    margin: 0;
+  }
+  .team .img img {
+    width: 100%; /* фиксированная ширина */
+    height: 250px;
+    object-fit: cover;
+  }
+}

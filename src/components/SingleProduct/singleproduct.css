@@ -1,0 +1,69 @@
+.product1 #heading{
+    text-align: left;
+    padding: 0;
+}
+
+.right {
+  padding: 80px 50px;
+}
+
+.single-product {
+  padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+.accordion-button {
+  margin: 0 !important;
+  background-color: #fff !important;
+}
+
+.accordion {
+  margin: 0 140px;
+  margin-top: 20px;
+}
+
+.container-plan {
+  display: grid;
+  margin: 45px 140px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "plan1 plan2";
+}
+
+.plan1 {
+  grid-area: plan1;
+}
+
+.plan2 {
+  grid-area: plan2;
+}
+
+.list-plan {
+  text-align: left;
+  padding: 0 0 0;
+  padding-right: 60px;
+  
+}
+
+.bg-plan{
+    margin-top: 30px;
+    background-color: #1C2120;
+    padding: 20px;
+}
+
+.title-plan{
+    text-align: left !important;
+    padding: 0;
+}
+
+
+

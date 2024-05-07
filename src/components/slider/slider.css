@@ -1,0 +1,26 @@
+.slider-container {
+  background-color: #1C2120;
+  height: 75vh;
+ 
+}
+
+.images-slider {
+  padding: 50px 10px;
+  background-color: none;
+  width: 400px;
+}
+
+.slider-single-content {
+  box-shadow: none;
+}
+
+.slider-heading {
+  background-color: #1C2120;
+}
+
+
+@media screen and (max-width: 768px) {
+  .slider-container {
+    height: auto;
+  }
+}

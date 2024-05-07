@@ -1,0 +1,39 @@
+/* ServicesCard.css */
+
+.services-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 300px; /* Можно задать максимальную ширину карточки */
+  }
+
+  .borders{
+    border-right: 1px solid #ccc !important;
+    border-left: 1px solid #ccc !important;
+    
+
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .services-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

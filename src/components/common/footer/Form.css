@@ -1,0 +1,84 @@
+/* Общие стили для формы */
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  background-color: #F6B548;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Медиа-запросы для адаптивности */
+@media screen and (min-width: 768px) {
+  .form-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 100px;
+  }
+
+  .profile-section {
+    align-items: flex-start;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .naming {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
